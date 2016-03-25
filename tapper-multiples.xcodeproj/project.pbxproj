@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C0896621CA5DB6600389151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0896611CA5DB6500389151 /* AppDelegate.swift */; };
+		9C0896641CA5DB6600389151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0896631CA5DB6600389151 /* ViewController.swift */; };
+		9C0896671CA5DB6600389151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0896651CA5DB6600389151 /* Main.storyboard */; };
+		9C0896691CA5DB6600389151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0896681CA5DB6600389151 /* Assets.xcassets */; };
+		9C08966C1CA5DB6600389151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C08966A1CA5DB6600389151 /* LaunchScreen.storyboard */; };
+		9C0896771CA5DB6600389151 /* tapper_multiplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0896761CA5DB6600389151 /* tapper_multiplesTests.swift */; };
+		9C0896821CA5DB6600389151 /* tapper_multiplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0896811CA5DB6600389151 /* tapper_multiplesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C0896731CA5DB6600389151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0896561CA5DB6500389151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C08965D1CA5DB6500389151;
+			remoteInfo = "tapper-multiples";
+		};
+		9C08967E1CA5DB6600389151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C0896561CA5DB6500389151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C08965D1CA5DB6500389151;
+			remoteInfo = "tapper-multiples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C08965E1CA5DB6500389151 /* tapper-multiples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tapper-multiples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0896611CA5DB6500389151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C0896631CA5DB6600389151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C0896661CA5DB6600389151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C0896681CA5DB6600389151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C08966B1CA5DB6600389151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C08966D1CA5DB6600389151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0896721CA5DB6600389151 /* tapper-multiplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapper-multiplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0896761CA5DB6600389151 /* tapper_multiplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapper_multiplesTests.swift; sourceTree = "<group>"; };
+		9C0896781CA5DB6600389151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C08967D1CA5DB6600389151 /* tapper-multiplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tapper-multiplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0896811CA5DB6600389151 /* tapper_multiplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapper_multiplesUITests.swift; sourceTree = "<group>"; };
+		9C0896831CA5DB6600389151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C08965B1CA5DB6500389151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08966F1CA5DB6600389151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08967A1CA5DB6600389151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C0896551CA5DB6500389151 = {
+			isa = PBXGroup;
+			children = (
+				9C0896601CA5DB6500389151 /* tapper-multiples */,
+				9C0896751CA5DB6600389151 /* tapper-multiplesTests */,
+				9C0896801CA5DB6600389151 /* tapper-multiplesUITests */,
+				9C08965F1CA5DB6500389151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C08965F1CA5DB6500389151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C08965E1CA5DB6500389151 /* tapper-multiples.app */,
+				9C0896721CA5DB6600389151 /* tapper-multiplesTests.xctest */,
+				9C08967D1CA5DB6600389151 /* tapper-multiplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C0896601CA5DB6500389151 /* tapper-multiples */ = {
+			isa = PBXGroup;
+			children = (
+				9C0896611CA5DB6500389151 /* AppDelegate.swift */,
+				9C0896631CA5DB6600389151 /* ViewController.swift */,
+				9C0896651CA5DB6600389151 /* Main.storyboard */,
+				9C0896681CA5DB6600389151 /* Assets.xcassets */,
+				9C08966A1CA5DB6600389151 /* LaunchScreen.storyboard */,
+				9C08966D1CA5DB6600389151 /* Info.plist */,
+			);
+			path = "tapper-multiples";
+			sourceTree = "<group>";
+		};
+		9C0896751CA5DB6600389151 /* tapper-multiplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C0896761CA5DB6600389151 /* tapper_multiplesTests.swift */,
+				9C0896781CA5DB6600389151 /* Info.plist */,
+			);
+			path = "tapper-multiplesTests";
+			sourceTree = "<group>";
+		};
+		9C0896801CA5DB6600389151 /* tapper-multiplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C0896811CA5DB6600389151 /* tapper_multiplesUITests.swift */,
+				9C0896831CA5DB6600389151 /* Info.plist */,
+			);
+			path = "tapper-multiplesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C08965D1CA5DB6500389151 /* tapper-multiples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0896861CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiples" */;
+			buildPhases = (
+				9C08965A1CA5DB6500389151 /* Sources */,
+				9C08965B1CA5DB6500389151 /* Frameworks */,
+				9C08965C1CA5DB6500389151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tapper-multiples";
+			productName = "tapper-multiples";
+			productReference = 9C08965E1CA5DB6500389151 /* tapper-multiples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C0896711CA5DB6600389151 /* tapper-multiplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0896891CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiplesTests" */;
+			buildPhases = (
+				9C08966E1CA5DB6600389151 /* Sources */,
+				9C08966F1CA5DB6600389151 /* Frameworks */,
+				9C0896701CA5DB6600389151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C0896741CA5DB6600389151 /* PBXTargetDependency */,
+			);
+			name = "tapper-multiplesTests";
+			productName = "tapper-multiplesTests";
+			productReference = 9C0896721CA5DB6600389151 /* tapper-multiplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C08967C1CA5DB6600389151 /* tapper-multiplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08968C1CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiplesUITests" */;
+			buildPhases = (
+				9C0896791CA5DB6600389151 /* Sources */,
+				9C08967A1CA5DB6600389151 /* Frameworks */,
+				9C08967B1CA5DB6600389151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C08967F1CA5DB6600389151 /* PBXTargetDependency */,
+			);
+			name = "tapper-multiplesUITests";
+			productName = "tapper-multiplesUITests";
+			productReference = 9C08967D1CA5DB6600389151 /* tapper-multiplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C0896561CA5DB6500389151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CraigNewcomb;
+				TargetAttributes = {
+					9C08965D1CA5DB6500389151 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+					};
+					9C0896711CA5DB6600389151 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C08965D1CA5DB6500389151;
+					};
+					9C08967C1CA5DB6600389151 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C08965D1CA5DB6500389151;
+					};
+				};
+			};
+			buildConfigurationList = 9C0896591CA5DB6500389151 /* Build configuration list for PBXProject "tapper-multiples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C0896551CA5DB6500389151;
+			productRefGroup = 9C08965F1CA5DB6500389151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C08965D1CA5DB6500389151 /* tapper-multiples */,
+				9C0896711CA5DB6600389151 /* tapper-multiplesTests */,
+				9C08967C1CA5DB6600389151 /* tapper-multiplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C08965C1CA5DB6500389151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08966C1CA5DB6600389151 /* LaunchScreen.storyboard in Resources */,
+				9C0896691CA5DB6600389151 /* Assets.xcassets in Resources */,
+				9C0896671CA5DB6600389151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0896701CA5DB6600389151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08967B1CA5DB6600389151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C08965A1CA5DB6500389151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0896641CA5DB6600389151 /* ViewController.swift in Sources */,
+				9C0896621CA5DB6600389151 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08966E1CA5DB6600389151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0896771CA5DB6600389151 /* tapper_multiplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C0896791CA5DB6600389151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0896821CA5DB6600389151 /* tapper_multiplesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C0896741CA5DB6600389151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C08965D1CA5DB6500389151 /* tapper-multiples */;
+			targetProxy = 9C0896731CA5DB6600389151 /* PBXContainerItemProxy */;
+		};
+		9C08967F1CA5DB6600389151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C08965D1CA5DB6500389151 /* tapper-multiples */;
+			targetProxy = 9C08967E1CA5DB6600389151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C0896651CA5DB6600389151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C0896661CA5DB6600389151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C08966A1CA5DB6600389151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C08966B1CA5DB6600389151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C0896841CA5DB6600389151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C0896851CA5DB6600389151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C0896871CA5DB6600389151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tapper-multiples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C0896881CA5DB6600389151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tapper-multiples/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C08968A1CA5DB6600389151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tapper-multiplesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper-multiples.app/tapper-multiples";
+			};
+			name = Debug;
+		};
+		9C08968B1CA5DB6600389151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tapper-multiplesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapper-multiples.app/tapper-multiples";
+			};
+			name = Release;
+		};
+		9C08968D1CA5DB6600389151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tapper-multiplesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tapper-multiples";
+			};
+			name = Debug;
+		};
+		9C08968E1CA5DB6600389151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tapper-multiplesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.tapper-multiplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tapper-multiples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C0896591CA5DB6500389151 /* Build configuration list for PBXProject "tapper-multiples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0896841CA5DB6600389151 /* Debug */,
+				9C0896851CA5DB6600389151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0896861CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0896871CA5DB6600389151 /* Debug */,
+				9C0896881CA5DB6600389151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C0896891CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08968A1CA5DB6600389151 /* Debug */,
+				9C08968B1CA5DB6600389151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C08968C1CA5DB6600389151 /* Build configuration list for PBXNativeTarget "tapper-multiplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08968D1CA5DB6600389151 /* Debug */,
+				9C08968E1CA5DB6600389151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C0896561CA5DB6500389151 /* Project object */;
+}
